@@ -25,24 +25,26 @@ address add | delete | view | edit FILEDS
 
 VALID FIELDS FOR "person add " are:
 --------------------------------------------------------------
--firstname "<valid name>"                               (required)
+-firstname "\<valid name\>"                               (required)
 
--lastname "<valid name>"                                (required)
+-lastname "\<valid name\>"                                (required)
 
--dob "<valid date of birth>" Valid format:"dd/mm/yyyy"  (required)
+-dob "\<valid date of birth\>" Valid format:"dd/mm/yyyy"  (required)
 
--nickname "<valid name>"
+-nickname "\<valid name\>"
 
   
 VALID FIELDS FOR "person edit " are:
 ----------------------------------------------------------------
--firstname "<valid name>"                               (required)
+-id ID
 
--lastname "<valid name>"                                (required)
+-firstname "\<valid name\>"                               
 
--dob "<valid date of birth>" Valid format:"dd/mm/yyyy"  (required)
+-lastname "\<valid name\>"                                
 
--nickname "<valid name>"
+-dob "\<valid date of birth\>" Valid format:"dd/mm/yyyy"
+
+-nickname "\<valid name>\"
 
   
 VALID FIELDS FOR "person delete | view " is:
@@ -52,33 +54,33 @@ VALID FIELDS FOR "person delete | view " is:
 
 VALID FIELDS FOR "person search " is:
 --------------------------------------------------------------
-"<search string>"
+"\<search string\>"
 
   
 VALID FIELDS FOR "address add " are:
 --------------------------------------------------------------------
 -personId personId
 
--line1 "<Address - Line 1>"                             (required)
+-line1 "\<Address - Line 1\>"                             (required)
 
--line2 "<Address - Line 1>"                             (required)
+-line2 "\<Address - Line 1\>"                             
 
--country "<Must be a valid country in Europe>"          (required)
+-country "\<Must be a valid country in Europe\>"          (required)
   
--postcode "<No special symbols | characters>"
+-postcode "\<No special symbols | characters\>"
 
   
 VALID FIELDS FOR "address edit " are:
 -------------------------------------------------------------------
 -id address id
 
--line1 "<Address - Line 1>"                             (required)
+-line1 "\<Address - Line 1\>"                             
 
--line2 "<Address - Line 1>"                             (required)
+-line2 "\<Address - Line 1\>"                             
 
--country "<Must be a valid country in Europe>"          (required)
+-country "\<Must be a valid country in Europe\>"          
 
--postcode "<No special symbols | characters>"
+-postcode "\<No special symbols | characters\>"
 
   
   

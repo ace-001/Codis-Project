@@ -4,7 +4,7 @@ TO CHECK AND TEST THE CODE:
 ------------------------------------------
 -EXTRACT "CodisProject.zip" file
 
--IMPORT THE THIS PROJECT INTO ECLIPSE
+-IMPORT THIS PROJECT INTO ECLIPSE
 
 -RUN THE "ProjectApplication.java" file
 
